@@ -13,6 +13,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+
         FXMLLoader loader = new FXMLLoader(getClass().getResource("main.fxml"));
         Parent root = loader.load();
 
@@ -21,7 +22,7 @@ public class Main extends Application {
         mc.drawOnCanvas();
 
 
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Zeus");
 
         primaryStage.setScene(new Scene(root));
         primaryStage.setResizable(false);
